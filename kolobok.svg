@@ -1,0 +1,35 @@
+
+    <svg width="800" height="550" xmlns="http://www.w3.org/2000/svg">
+        <!--тень-->
+        <ellipse rx="60" ry="20" cx="280" cy="470" fill="lightgrey"></ellipse>
+        <ellipse rx="60" ry="20" cx="540" cy="470" fill="lightgrey"></ellipse>
+        <!--тело-->
+        <circle r="110" fill="orange" cx="280" cy="350"></circle>
+        <circle r="110" fill="yellow" cx="540" cy="350"></circle>
+        <!--рот-->
+        <ellipse rx="15" ry="7" cx="280" cy="420" fill="red"></ellipse>
+        <ellipse rx="7" ry="15" cx="540" cy="420" fill="red"></ellipse>
+        <!--глаза-->
+        <circle r="35" fill="white" cx="280" cy="325"></circle>
+        <circle r="35" fill="white" cx="330" cy="325"></circle>
+        <circle r="35" fill="white" cx="490" cy="325"></circle>
+        <circle r="35" fill="white" cx="540" cy="325"></circle>
+         <!--зрачки-->
+         <circle r="8" fill="black" cx="285" cy="325"></circle>
+         <circle r="8" fill="black" cx="335" cy="325"></circle>
+         <circle r="8" fill="black" cx="485" cy="325"></circle>
+         <circle r="8" fill="black" cx="535" cy="325"></circle>
+         <!--нос-->
+         <circle r="10" fill="black" cx="305" cy="360"></circle>
+         <!--хвост-->
+         <ellipse rx="70" ry="25" cx="10" cy="400" fill="orange" transform="translate(120 -40) skewY(10)"></ellipse>
+         <polyline points=" 65,348 90,336 85,369" fill="white"></polyline>
+         <!--ухо левое-->
+         <polyline points=" 204,285 204,235 254,243" fill="orange"></polyline>
+         <polyline points=" 209,270 209,240 239,245" fill="black"></polyline>
+         <!--ухо правое-->
+         <polyline points=" 294,242 344,225 344,275" fill="orange"></polyline>
+         <polyline points=" 309,243 339,233 339,263" fill="black"></polyline>
+</svg>
+    
+
